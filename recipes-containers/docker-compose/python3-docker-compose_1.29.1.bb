@@ -13,7 +13,7 @@ SRC_URI += "file://0001-setup.py-remove-maximum-version-requirements.patch \
             file://0001-setup.py-import-fastentrypoints.patch \
            "
 
-DEPENDS += "${PYTHON_PN}-fastentrypoints-native"
+#DEPENDS += "${PYTHON_PN}-fastentrypoints-native"
 
 RDEPENDS_${PN} = "\
     ${PYTHON_PN}-cached-property \
