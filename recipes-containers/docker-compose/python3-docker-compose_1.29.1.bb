@@ -9,7 +9,7 @@ SRC_URI[md5sum] = "49c202544c7e2eadbbe45da8e838ae02"
 SRC_URI[sha256sum] = "d2064934f5084db8a0c4805e226447bf1fd0c928419be95afb6bd1866838c1f1"
 
 
-SRC_URI += "file://0001-setup.py-remove-maximum-version-requirement.patch \
+SRC_URI += "file://0001-setup.py-remove-maximum-version-requirements.patch \
             file://0001-setup.py-import-fastentrypoints.patch \
            "
 
